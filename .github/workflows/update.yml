@@ -1,4 +1,4 @@
-name: ReX Update Check
+name: Update Check
 on:
   workflow_dispatch:
   schedule:

@@ -4,7 +4,7 @@
     "options": [
       {
         "key": "AppIcon",
-        "value": "MMT"
+        "value": "Revancify Blue"
       }
     ]
   },
@@ -17,7 +17,7 @@
       },
       {
         "key": "AppNameLauncher",
-        "value": "RVX YTMusic"
+        "value": "RVX Music"
       }
     ]
   },
@@ -44,11 +44,11 @@
     "options": [
       {
         "key": "PackageNameYouTube",
-        "value": "app.rvx.unstable.android.youtube"
+        "value": "anddea.youtube"
       },
       {
         "key": "PackageNameYouTubeMusic",
-        "value": "app.rvx.unstable.android.apps.youtube.music"
+        "value": "anddea.youtube.music"
       }
     ]
   },
@@ -57,7 +57,7 @@
     "options": [
       {
         "key": "AppIcon",
-        "value": "MMT"
+        "value": "Revancify Blue"
       }
     ]
   },
@@ -115,7 +115,7 @@
     "options": [
       {
         "key": "OutlineIcon",
-        "value": false
+        "value": true
       }
     ]
   }

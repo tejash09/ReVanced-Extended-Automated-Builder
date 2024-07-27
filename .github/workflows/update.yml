@@ -4,7 +4,7 @@ on:
   schedule:
 #    - cron: "*/30 * * * *" # Every 30 minutes
 #    - cron: "0 */2 * * *" # Every 2 hours
-    - cron: "0 */12 * * *" # Every 12 hours
+    - cron: "0 */8 * * *" # Every 8 hours
 
 jobs:
   check-update:
@@ -19,10 +19,10 @@ jobs:
       - name: Check if file exists
         run: |
           if [[ ! -f latest-parsed-version.md ]]; then
-            echo "The file latest-parsed-version.md was not found at the base of the repository. This file is necessary for keeping track of the previously built version and compare it the remote version. To avoid generating failed runs, the workflow will now be interrupted."
+            echo "Checking for file latest-parsed-version.md in the repository. This file is necessary for keeping track of the previously built version and comparing it the remote version."
             exit 0
           fi
-      - name: Get latest release from YT-Advanced/ReX-patches
+      - name: Get latest release from inotia00/revanced-patches
         id: latest-release
         run: |
           LATEST_RELEASE=$(curl -s https://api.github.com/repos/inotia00/revanced-patches/releases/latest | jq -r '.tag_name')

@@ -7,14 +7,14 @@
 
 ###### 07/AUGUST/2023:
 ### Merged new upstream features...
-* [Custom patch resources](https://github.com/nikhilbadyal/docker-py-revanced/issues/230) are now supported, with per-app configuration options available! For more information about this, [check here](https://github.com/Spacellary/ReVanced-Extended-Automated-Builder/blob/main/readme-history/README-ORIGINAL.md#global-config).
+* [Custom patch resources](https://github.com/nikhilbadyal/docker-py-revanced/issues/230) are now supported, with per-app configuration options available! For more information about this, [check here for the original documentation](https://github.com/nikhilbadyal/docker-py-revanced/blob/main/README.md#global-config).
 
 ###### 15/JULY/2023:
 ### Merged upstream changes...
 * Now with support for **RVX Reddit**.
 
 Also supports the other Reddit clients, such as **RV Sync**.
-* Read the [README-ORIGINAL.md](https://github.com/Spacellary/ReVanced-Extended-Automated-Builds/blob/main/readme-history/README-ORIGINAL.md) for more information about those.
+* Read the [README-ORIGINAL.md](https://github.com/nikhilbadyal/docker-py-revanced/blob/main/README.md) for more information about those in the original repository.
 
 ###### 23/MARCH/2023:
 ### Builds are now automated!
@@ -47,4 +47,4 @@ Let the 'forkception' begin!
 * [ReVanced](https://github.com/revanced/revanced-patches/releases/latest) **Sync for Reddit** (latest).
 
 ###### Check [.env](https://github.com/Spacellary/docker-py-revanced/blob/main/.env) for a list of excluded patches and [options.json](https://github.com/Spacellary/docker-py-revanced/blob/main/apks/options.json) for patch options.
-###### Complete and original README can be found [here](https://github.com/Spacellary/ReVanced-Extended-Automated-Builds/blob/main/readme-history/README-ORIGINAL.md).
+###### Complete and original README can be found [here](https://github.com/nikhilbadyal/docker-py-revanced/blob/main/README.md).
